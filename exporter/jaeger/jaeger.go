@@ -5,7 +5,7 @@ import (
 	"errors"
 
 	"contrib.go.opencensus.io/exporter/jaeger"
-	opencensus "github.com/krakendio/krakend-opencensus/v2"
+	opencensus "github.com/davron112/krakend-opencensus/v2"
 )
 
 func init() {
