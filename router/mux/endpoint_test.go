@@ -11,16 +11,16 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	opencensus "github.com/krakendio/krakend-opencensus/v2"
-	"github.com/luraproject/lura/v2/config"
-	"github.com/luraproject/lura/v2/proxy"
+	opencensus "github.com/davron112/krakend-opencensus/v2"
+	"github.com/davron112/lura/v2/config"
+	"github.com/davron112/lura/v2/proxy"
 	"go.opencensus.io/plugin/ochttp"
 	"go.opencensus.io/stats/view"
 )
 
 var (
 	extraConfig = []byte(`{
-		"github_com/devopsfaith/krakend-opencensus": {
+		"github_com/davron112/krakend-opencensus": {
 			"enabled_layers": {
 				"router": true
 			}

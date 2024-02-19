@@ -4,18 +4,17 @@ import (
 	"net/http"
 	"time"
 
+	opencensus "github.com/davron112/krakend-opencensus/v2"
+	"github.com/davron112/lura/v2/config"
+	"github.com/davron112/lura/v2/proxy"
+	krakendgin "github.com/davron112/lura/v2/router/gin"
 	"github.com/gin-gonic/gin"
-	"github.com/luraproject/lura/v2/config"
-	"github.com/luraproject/lura/v2/proxy"
-	krakendgin "github.com/luraproject/lura/v2/router/gin"
 	"go.opencensus.io/plugin/ochttp"
 	"go.opencensus.io/plugin/ochttp/propagation/b3"
 	"go.opencensus.io/stats"
 	"go.opencensus.io/tag"
 	"go.opencensus.io/trace"
 	"go.opencensus.io/trace/propagation"
-
-	opencensus "github.com/krakendio/krakend-opencensus/v2"
 )
 
 // New wraps a handler factory adding some simple instrumentation to the generated handlers

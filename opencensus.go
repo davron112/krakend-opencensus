@@ -11,7 +11,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/luraproject/lura/v2/config"
+	"github.com/davron112/lura/v2/config"
 	"go.opencensus.io/plugin/ochttp"
 	"go.opencensus.io/stats/view"
 	"go.opencensus.io/trace"
@@ -235,7 +235,7 @@ type DataDogConfig struct {
 
 const (
 	ContextKey = "opencensus-request-span"
-	Namespace  = "github_com/devopsfaith/krakend-opencensus"
+	Namespace  = "github_com/davron112/krakend-opencensus"
 )
 
 var (
