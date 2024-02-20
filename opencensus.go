@@ -236,7 +236,7 @@ type DataDogConfig struct {
 
 const (
 	ContextKey = "opencensus-request-span"
-	Namespace  = "github_com/devopsfaith/krakend-opencensus"
+	Namespace  = "github_com/davron112/krakend-opencensus"
 )
 
 var (
