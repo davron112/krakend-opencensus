@@ -4,10 +4,10 @@ import (
 	"net/http"
 	"time"
 
+	"github.com/davron112/gin"
 	"github.com/davron112/lura/v2/config"
 	"github.com/davron112/lura/v2/proxy"
 	krakendgin "github.com/davron112/lura/v2/router/gin"
-	"github.com/gin-gonic/gin"
 	"go.opencensus.io/plugin/ochttp"
 	"go.opencensus.io/plugin/ochttp/propagation/b3"
 	"go.opencensus.io/stats"

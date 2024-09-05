@@ -10,7 +10,7 @@ import (
 	"go.opencensus.io/stats"
 	"go.opencensus.io/tag"
 
-	"github.com/gin-gonic/gin"
+	"github.com/davron112/gin"
 	"go.opencensus.io/plugin/ochttp"
 )
 

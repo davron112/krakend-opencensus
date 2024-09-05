@@ -8,12 +8,12 @@ import (
 	"os/signal"
 	"syscall"
 
+	"github.com/davron112/gin"
 	"github.com/davron112/lura/v2/config"
 	"github.com/davron112/lura/v2/logging"
 	"github.com/davron112/lura/v2/proxy"
 	krakendgin "github.com/davron112/lura/v2/router/gin"
 	"github.com/davron112/lura/v2/transport/http/client"
-	"github.com/gin-gonic/gin"
 
 	opencensus "github.com/davron112/krakend-opencensus/v2"
 	"github.com/davron112/krakend-opencensus/v2/exporter"
